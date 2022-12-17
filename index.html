@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Сайн байна уу, flask project!</h1>
+    <a href="http://127.0.0.1:5000"><button type="button" class="btn btn-primary"></button></a>
+
+<py-script>
 from flask import Flask,render_template,request, url_for, redirect
 import sqlite3 as sql
 import os
@@ -118,3 +133,6 @@ def ajiltanEdit(id):
 
 if __name__=="__main__":
     web.run(debug=True)
+    </py-script>
+    </body>
+</html>
